@@ -3,3 +3,11 @@
 // COSC 1030, Section 12
 // Program 01
 // 23 Jan 2025
+
+//Pseudo code for Program 01
+
+ASK user for four values to be summed
+SUM entered values
+DISPLAY sum
+
+
