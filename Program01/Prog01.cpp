@@ -14,6 +14,7 @@ int main() {
     int n = 0;
     int sum = 0;
 
+    cout << "Please enter four values (Seperated with a space)" << endl;
     cout << "The sum of ";
 
     while (n < 4)

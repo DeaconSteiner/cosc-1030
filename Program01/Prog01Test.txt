@@ -3,3 +3,28 @@
 // COSC 1030, Section 12
 // Program 01
 // 23 Jan 2025
+
+// Test 1
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program01$ g++ Prog01.cpp -o Prog
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program01$ ./Prog 
+Please enter four values (Seperated with a space)
+The sum of 1 2 3 4
+is: 10
+
+// Test 2
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program01$ ./Prog 
+Please enter four values (Seperated with a space)
+The sum of 92 -132 54 36
+is: 50
+
+// Test 3
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program01$ ./Prog 
+Please enter four values (Seperated with a space)
+The sum of 56 -43 -904 636
+is: -255
+
+// Test 4
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program01$ ./Prog 
+Please enter four values (Seperated with a space)
+The sum of 53 156121 -137654 45036  
+is: 63556
