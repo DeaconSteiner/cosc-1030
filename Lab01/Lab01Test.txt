@@ -1,0 +1,10 @@
+// Lab01Test.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Lab 01
+// 22 Jan 2025
+
+deacon@deacon-lenovo:~/cosc-1030/Lab01$ g++ Lab01.cpp -o labTest.out // Compile the program with g++ -o flag to save it to labTest.out file
+deacon@deacon-lenovo:~/cosc-1030/Lab01$ ./labTest.out // Run labTest.out 
+What do you want, Commander Steiner? // labTest.out output
+deacon@deacon-lenovo:~/cosc-1030/Lab01$ 
