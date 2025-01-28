@@ -3,3 +3,11 @@
 // COSC 1030, Section 12
 // Program 02
 // 28 Jan 2025
+
+GET two numbers
+    ASK user for input
+DETERMINE order
+COMPUTE product
+    CALCULATE m * (m + 1) * (m + 2) * . . . * (n − 1) * n
+RETURN product
+    "The product over the interval is" + product
