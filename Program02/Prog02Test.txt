@@ -1,0 +1,34 @@
+// Prog02Test.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Program 02
+// 28 Jan 2025
+
+// Test 1 - First number smaller than second
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program02$ g++ Prog02.cpp -o Prog
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program02$ ./Prog 
+Please enter two numbers
+1 5
+The product of integers over this interval is 120
+// 1*2*3*4*5 = 120 - test ok!
+
+// Test 2 - Same value
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program02$ ./Prog 
+Please enter two numbers
+5 5
+The product of integers over this interval is 5
+// Handles single value correctly
+
+// Test 3 - Second number smaller than first
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program02$ ./Prog 
+Please enter two numbers
+7 4
+The product of integers over this interval is 840
+// 4*5*6*7 = 840 - test ok!
+
+// Test 4 - Negative numbers 
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program02$ ./Prog 
+Please enter two numbers
+-6 4
+The product of integers over this interval is 0
+// Negative numbers work fine here

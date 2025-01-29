@@ -6,8 +6,16 @@
 
 GET two numbers
     ASK user for input
+
 DETERMINE order
+    IF, ELSE IF, ELSE
+
 COMPUTE product
-    CALCULATE m * (m + 1) * (m + 2) * . . . * (n − 1) * n
+    IF values are different
+        CALCULATE m * (m + 1) * (m + 2) * . . . * (n − 1) * n
+    ELSE
+        product is number
+
 RETURN product
     "The product over the interval is" + product
+    
