@@ -7,4 +7,4 @@ Program01 - Completed: January 23, 2025
 
 Program02 - Completed January 29, 2025
 
-Lab02 - Completed:
+Lab02 - Completed: January 29, 2025
