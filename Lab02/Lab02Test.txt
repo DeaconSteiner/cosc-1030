@@ -3,3 +3,37 @@
 // COSC 1030, Section 12
 // Lab 02
 // 29 Jan 2025
+
+// TESTING NUMBERS ONE THROUGH FOUR
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab02$ g++ Lab02.cpp -o test
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab02$ ./test
+Please enter a number between one and 4 (1-4)
+1
+One is the loneliest number.
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab02$ ./test
+Please enter a number between one and 4 (1-4)
+2
+Two can be as bad as one.
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab02$ ./test
+Please enter a number between one and 4 (1-4)
+3
+Three is just confusing.
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab02$ ./test
+Please enter a number between one and 4 (1-4)
+4
+Four means you are done.
+
+// TESTING VALUES ABOVE AND BELOW THE RANGE
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab02$ ./test
+Please enter a number between one and 4 (1-4)
+5
+Value not in range
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab02$ ./test
+Please enter a number between one and 4 (1-4)
+-1
+Value not in range

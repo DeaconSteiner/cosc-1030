@@ -3,3 +3,15 @@
 // COSC 1030, Section 12
 // Lab 02
 // 29 Jan 2025
+
+ASK user for a number between one and four
+    IF number not between one and four
+    EXIT Program
+        
+    ELSE
+        PRINT message based on number
+            (a) If the user enters the integer 1, output “One is the loneliest number.”
+            (b) If the user enters the integer 2, output “Two can be as bad as one.”
+            (c) If the user enters the integer 3, output “Three is just confusing.”
+            (d) If the user enters the integer 4, output “Four means you are done.”
+
