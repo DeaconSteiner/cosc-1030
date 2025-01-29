@@ -5,7 +5,6 @@
 // 29 Jan 2025
 
 #include <iostream>
-#include <cstdlib> // exit()
 
 using std::cout;
 using std::cin;
