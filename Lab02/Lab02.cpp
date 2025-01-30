@@ -18,32 +18,30 @@ int main() {
 
     if (number < 1 || number > 4) {
         cout << "Value not in range" << endl;
-        return 0;
+        return 1;
     }
 
     else {
         if (number == 1) {
-            cout << "One is the loneliest number." << endl;
-            return 0; 
+            cout << "One is the loneliest number." << endl; 
         }
 
         else if (number == 2)
         {
             cout << "Two can be as bad as one." << endl;
-            return 0;
         }
 
         else if (number == 3)
         {
             cout << "Three is just confusing." << endl;
-            return 0;
+        
         }
 
         else if (number == 4)
         {
             cout << "Four means you are done." << endl;
-            return 0;
         }
         
     }
+    return 0;
 }
