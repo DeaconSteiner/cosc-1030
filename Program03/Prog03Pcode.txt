@@ -4,3 +4,43 @@
 // Program 03
 // 04 Feb 2025
 
+// Part 1 - FOR loops
+
+STORE a user input variable
+IF user variable less than 1
+    ASK user for value greater than 1
+ELSE
+    FOR temp variable < user variable
+        temp sum = temp sum + temp variable
+PRINT sum
+
+// Part 2 - WHILE loops
+
+STORE 2 user variables (i, j)
+counter = i +1
+count = 0
+IF i less than j
+    WHILE counter less than j-1
+        count = count + 1
+        counter = counter + 1
+ELSE 
+    SWAP variables
+
+PRINT count
+
+// Part 3 - DO WHILE loops
+
+STORE two variable (n, i)
+IF i less than 0
+    PRINT "Please enter a non-negative number"
+ELSE IF i = 0
+    PRINT "The product of n^0 is 1"
+ELSE
+    temp variable = 1
+    counter = 1
+    DO 
+        temp variable = temp variable * n
+    WHILE counter < i
+
+        
+    
