@@ -1,0 +1,74 @@
+// Lab03Test.txt
+// Deacon Steiner
+// COSC 1030, section 12
+// Lab03
+
+// Structure
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab03$ g++ Lab03_struct.cpp 
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab03$ ./a.out
+
+Enter month as integer 1-12:  3
+Enter day as integer 1-31:  21
+Enter year as integer:  2002
+
+
+Printing the dates:
+10/6/2000
+3/21/2002
+
+Birthday: 
+Enter month as integer 1-12:  5
+Enter day as integer 1-31:  10
+Enter year as integer:  1991
+
+Measure date: 
+Enter month as integer 1-12:  10
+Enter day as integer 1-31:  6
+Enter year as integer:  1962
+
+
+Joe was born in 1991
+Height is 72
+Weight is 180
+Last measured on: 10/6/1962
+Birthday: 5/10/1991
+
+And here is Fred.
+Height is 74
+Weight is 200
+Last measured on: 6/21/2007
+Birthday: 11/27/1968
+
+// Class
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab03$ g++ Lab03_class.cpp 
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab03$ ./a.out
+
+Enter month as integer 1-12:  3
+Enter day as integer 1-31:  21
+Enter year as integer:  2002
+
+Printing the date:
+3/21/2002
+
+Birthday: 
+Enter month as integer 1-12:  5
+Enter day as integer 1-31:  19
+Enter year as integer:  1993
+
+Measure date: 
+Enter month as integer 1-12:  10
+Enter day as integer 1-31:  6
+Enter year as integer:  1962
+
+
+Joe was born in 1993
+
+And here is Joe:
+Height is 72
+Weight is 180
+Last measured on 10/6/1962
+Birthday is 5/19/1993
+
+Joe was last measured in 1962

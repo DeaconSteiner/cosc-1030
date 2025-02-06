@@ -1,0 +1,10 @@
+// Lab03PCode.txt
+// Deacon Steiner
+// COSC 1030, section 12
+// Lab03
+
+ADD measure date to Person class/ struct
+COPY birtday input block for measure date (Change variable names to measurement)
+REMOVE unnecessary lines
+
+

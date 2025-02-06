@@ -1,8 +1,7 @@
-// StructOne.cpp
-// Kim Buckner
-// COSC 1030
-// Lecture 05
-// Demonstration of using struct data structures.
+// Lab03_struct.cpp
+// Deacon Steiner
+// COSC 1030, section 12
+// Lab03
 
 #include <iostream>
 using std::cin;
@@ -27,6 +26,7 @@ struct Person
   int height;
   int weight;
   Date birthday;
+  Date measurement; // added measure date 
 };
 
 // Here is a prototype for a function to access a Person
@@ -47,13 +47,16 @@ int main()
   Joe.height=72;
   Joe.weight=180;
   cout << endl;
+  cout << "Birthday: " << endl;
   fillDate(Joe.birthday);
+  cout << "\nMeasure date: " << endl; // output measure date
+  fillDate(Joe.measurement); // output measure date
 
   cout << endl << "\nJoe was born in " << Joe.birthday.year << endl;
-  cout << "Here's Joe:" << endl;
+  //cout << "Here's Joe:" << endl; // removed line to match listing
   showPerson(Joe);
 
-  Person Fred={74,200,{11,27,1968}}; // Here's the direct initializer.
+  Person Fred={74,200,{11,27,1968}, {6,21,2007}}; // Here's the direct initializer.
   cout << "\nAnd here is Fred." << endl;
   showPerson(Fred);
   cout << endl;
@@ -91,6 +94,8 @@ void showPerson(Person the_person)
 {
   cout << "Height is " << the_person.height << endl
     << "Weight is " << the_person.weight << endl
-    << "Birthday is ";
+    << "Last measured on: "; // added measure info to showPerson function
+  showDate(the_person.measurement); // added measure info to showPerson function
+  cout << "Birthday: ";
   showDate(the_person.birthday);
 }

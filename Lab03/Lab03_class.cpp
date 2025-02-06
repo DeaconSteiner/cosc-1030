@@ -1,9 +1,7 @@
-// ClassOne.cpp
-// Kim Buckner
-// COSC 1030 
-// Lecture 05
-// Re-working of the StructUgly.cpp concept to demonstrate
-// the syntax of class declarations and definitions.  
+// Lab03_class.cpp
+// Deacon Steiner
+// COSC 1030, section 12
+// Lab03
 
 #include <iostream>
 using std::cin;
@@ -29,6 +27,7 @@ public:
   int height;
   int weight;
   Date birthday;
+  Date measurement; //added measure date
   void show(void);
 };
 
@@ -45,10 +44,14 @@ int main()
   Joe.height=72; // Because these fields are public, we have direct access.
   Joe.weight=180;
   cout << endl;
+  cout << "Birthday: " << endl;
   Joe.birthday.fill();
+  cout << "\nMeasure date: " << endl;
+  Joe.measurement.fill();
   cout << "\n\nJoe was born in " << Joe.birthday.year << endl;
-  cout << "Here's Joe:" << endl;
+  cout << "\nAnd here is Joe:" << endl;
   Joe.show();
+  cout << "\nJoe was last measured in " << Joe.measurement.year << endl;
   cout << endl;
 
   return(0);
@@ -72,8 +75,8 @@ void Date::fill(void)
   day=tmp;
   cout << "Enter year as integer:  ";
   cin  >> year;
-  cout << "You entered this date:\n\t";
-  show();
+  /* cout << "You entered this date:\n\t";
+  show(); */ // removed this line because it was not in the listing
 }
 
 void Date::show(void)
@@ -87,7 +90,8 @@ void Person::show(void)
 {
   cout << "Height is " << height << endl
     << "Weight is " << weight << endl
-
-    << "Birthday is ";
+    << "Last measured on ";
+    measurement.show();
+  cout << "Birthday is ";
   birthday.show();
 }
