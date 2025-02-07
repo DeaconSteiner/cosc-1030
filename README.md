@@ -9,6 +9,6 @@ Program02 - Completed January 29, 2025
 
 Lab02 - Completed: January 29, 2025
 
-Program03 - Completed: 
+Program03 - Completed: February 6, 2025
 
 Lab03 - Completed: February 5, 2025

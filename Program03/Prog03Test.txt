@@ -4,3 +4,34 @@
 // Program 03
 // 04 Feb 2025
 
+// Test with values in range
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program03$ g++ Prog03.cpp -o test
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program03$ ./test 
+Please enter a number: 9
+The sum of the integers from 1 to 9 is 45
+
+Please enter two numbers (Separated with a space): 1 9
+The interval between 1 and 9 is 7
+
+Please enter two numbers, the second cannot be negative (Separated with a space): 2 10
+The result of 2^10 is 1024
+
+// Test with values out of range
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program03$ ./test 
+Please enter a number: -34
+Please enter a number greater than 0: -98
+Please enter a number greater than 0: 0
+Please enter a number greater than 0: 23
+The sum of the integers from 1 to 23 is 276
+
+Please enter two numbers (Separated with a space): 9 -9
+The interval between -9 and 9 is 17
+
+Please enter two numbers, the second cannot be negative (Separated with a space): 2 -8
+Please enter two numbers, the second cannot be negative (Separated with a space): 2 0
+The result of 2^0 is 1
+
+
+
