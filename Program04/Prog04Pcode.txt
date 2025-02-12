@@ -3,3 +3,33 @@
 // COSC 1030, Section 12
 // Program 04
 // 11 Feb 2025
+
+const int SENTINEL(-9999)
+
+IF myPrompt is sentinel
+    exit
+
+ELSE IF myPrompt is between 1 and 10
+    myFact
+
+ELSE IF myPrompt is between 10 and 45
+    mySum
+
+ELSE IF myPrompt is greater than 45
+    myMod
+
+
+int myPrompt(void)
+    PROMPT user for input
+        IF input is negative
+            reprompt until input is non-negative
+        ELSE IF input is sentinel
+            return sentinel
+        ELSE 
+            return input
+
+int mySum(int)
+
+int myFact(int)
+
+int myMod(int)
