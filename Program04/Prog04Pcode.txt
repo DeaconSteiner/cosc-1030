@@ -29,7 +29,10 @@ int myPrompt(void)
             return input
 
 int mySum(int)
+    CALCULATE sum
 
 int myFact(int)
+    CALCULATE factorial
 
 int myMod(int)
+    CALCULATE remainder

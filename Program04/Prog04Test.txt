@@ -3,3 +3,34 @@
 // COSC 1030, Section 12
 // Program 04
 // 11 Feb 2025
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program04$ g++ Prog04.cpp -o test
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program04$ ./test 
+Enter a non-negative integer (-9999 to end): 8
+The product from 1 to 8 is 40320
+Enter a non-negative integer (-9999 to end): 9
+The product from 1 to 9 is 362880
+Enter a non-negative integer (-9999 to end): 10
+The sum from 1 to 10 is 55
+Enter a non-negative integer (-9999 to end): 11
+The sum from 1 to 11 is 66
+Enter a non-negative integer (-9999 to end): 12
+The sum from 1 to 12 is 78
+Enter a non-negative integer (-9999 to end): 13
+The sum from 1 to 13 is 91
+Enter a non-negative integer (-9999 to end): 45
+The sum from 1 to 45 is 1035
+Enter a non-negative integer (-9999 to end): 51
+The remainder of 51 / 13 is 12
+Enter a non-negative integer (-9999 to end): 52
+The remainder of 52 / 13 is 0
+Enter a non-negative integer (-9999 to end): -9878
+Enter a non-negative integer (-9999 to end): 0
+The product from 1 to 0 is 1
+Enter a non-negative integer (-9999 to end): 1
+The product from 1 to 1 is 1
+Enter a non-negative integer (-9999 to end): 2
+The product from 1 to 2 is 2
+Enter a non-negative integer (-9999 to end): 4
+The product from 1 to 4 is 24
+Enter a non-negative integer (-9999 to end): -9999
