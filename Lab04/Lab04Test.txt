@@ -1,0 +1,49 @@
+// Lab04Test.txt
+// Deacon Steiner
+// COSC 1030
+// Lab 04
+// Feb 12, 2025
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab04$ g++ Lab04.cpp -o test
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab04$ ./test
+===================================================
+Given your age and resting heart rate, 
+I'll compute some exercise heart rate information for you.
+===================================================
+Enter your age in whole years (>0): 48
+Enter your resting heart rate (>0): 71
+====================RESULTS========================
+Your recommended safe heart rate max is 172 beats per minute.
+Your heart rate reserve is 101 beats per minute.
+And, your 85% intensity heart rate target is 157 beats per minute.
+
+// Testing age out of bounds
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab04$ ./test
+===================================================
+Given your age and resting heart rate, 
+I'll compute some exercise heart rate information for you.
+===================================================
+Enter your age in whole years (>0): -12
+Age must be greater than 0, Please try again: 0
+Age must be greater than 0, Please try again: 20
+Enter your resting heart rate (>0): 68
+====================RESULTS========================
+Your recommended safe heart rate max is 192 beats per minute.
+Your heart rate reserve is 124 beats per minute.
+And, your 85% intensity heart rate target is 173 beats per minute.
+
+// Testing heartrate out of bounds
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab04$ ./test
+===================================================
+Given your age and resting heart rate, 
+I'll compute some exercise heart rate information for you.
+===================================================
+Enter your age in whole years (>0): 34
+Enter your resting heart rate (>0): -44
+Resting heart rate must be greater than 0, Please try again: 0
+Resting heart rate must be greater than 0, Please try again: -1
+Resting heart rate must be greater than 0, Please try again: 90
+====================RESULTS========================
+Your recommended safe heart rate max is 182 beats per minute.
+Your heart rate reserve is 92 beats per minute.
+And, your 85% intensity heart rate target is 168 beats per minute.
