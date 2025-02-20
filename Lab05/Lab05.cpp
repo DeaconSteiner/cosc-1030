@@ -1,6 +1,6 @@
 // Lab05.cpp
 // Deacon Steiner
-// COSC 1030
+// COSC 1030, Section 12
 // Lab 05
 // Feb 19, 2025
 

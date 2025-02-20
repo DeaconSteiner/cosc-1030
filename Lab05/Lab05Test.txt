@@ -1,3 +1,9 @@
+// Lab05.cpp
+// Deacon Steiner
+// COSC 1030, Section 12
+// Lab 05
+// Feb 19, 2025
+
 deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab05$ ./float // Original table using floating point values
 Enter the smallest positive integer to use (greater than 0):  1
 
