@@ -48,4 +48,5 @@ Enter the largest positive integer (greater than 1):  10
 This C++ compiler reports 15 decimal digits for double precision numbers,
 also the maximum positive int integer is 2147483647
 
-
+// While using doubles, the program is able to show the values to a greater level of precision,
+therefore certain numbers may be slightly different due to differing precision levels
