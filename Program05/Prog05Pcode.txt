@@ -1,0 +1,8 @@
+// Prog05Pcode.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Program 05
+// 20 Feb 2025
+
+PROMPT user for a non-negative integer
+
