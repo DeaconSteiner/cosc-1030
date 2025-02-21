@@ -4,3 +4,29 @@
 // Program 05
 // 20 Feb 2025
 
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program05$ ./test 
+Please enter a non-negative integer: 0
+Approximation of pi is 4.000000000000000
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program05$ ./test 
+Please enter a non-negative integer: -9
+integer must be positive, Please enter another number: 
+-1
+integer must be positive, Please enter another number: 1
+Approximation of pi is 2.666666666666667
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program05$ ./test 
+Please enter a non-negative integer: 50
+Approximation of pi is 3.161198612987051
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program05$ ./test 
+Please enter a non-negative integer: 100
+Approximation of pi is 3.151493401070991
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program05$ ./test 
+Please enter a non-negative integer: 10000 
+Approximation of pi is 3.141692643590535
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program05$ ./test 
+Please enter a non-negative integer: 100000 
+Approximation of pi is 3.141602653489720

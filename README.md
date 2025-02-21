@@ -17,6 +17,6 @@ Program04 - Completed: February 12, 2025
 
 Lab04 - Completed: February 12, 2025
 
-Program05 - Completed: 
+Program05 - Completed: February 20, 2025
 
 Lab05 - Completed: February 19, 2025

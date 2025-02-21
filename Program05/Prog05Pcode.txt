@@ -4,5 +4,12 @@
 // Program 05
 // 20 Feb 2025
 
-PROMPT user for a non-negative integer
+PROMPT user for a non-negative integer (k)
 
+FIND -1^k - power function
+
+FIND 2k+1 - denominator function
+
+FIND sum of power function / denominator function
+
+MULTIPLY result of sum by 4
