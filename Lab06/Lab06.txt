@@ -3,3 +3,28 @@
 // COSC 1030, Section 12
 // Lab 06
 // Feb 26, 2025
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab06$ g++ Lab06.cpp 
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab06$ ./a.out 
+Calculate the average of inputs (inputs must be non-negative numbers): 
+Enter numbers one by one, to finish, enter-9999
+3.4 6 7 9
+-9999
+Results: 5 non-negative integers entered, average: 5.8
+// The values read were (3 4 6 7 9)
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab06$ ./a.out 
+Calculate the average of inputs (inputs must be non-negative numbers): 
+Enter numbers one by one, to finish, enter-9999
+2 5 a $ 6.7 9*
+-9999
+Results: 5 non-negative integers entered, average: 5.8
+// The values read were (2 5 6 7 9)
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab06$ ./a.out 
+Calculate the average of inputs (inputs must be non-negative numbers): 
+Enter numbers one by one, to finish, enter-9999
+5.6 7 9 8.4 5v6 7 1 111 5 8      
+-9999
+Results: 13 non-negative integers entered, average: 14
+// The values read were (5 6 7 9 8 4 5 6 7 1 111 5 8)
