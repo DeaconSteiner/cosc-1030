@@ -3,3 +3,23 @@
 // COSC 1030 Spring 2025
 // Program 06
 // February 26, 2025
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program06$ make run
+./prog
+Enter the height (cm) of the tank ( >= 0 ): -3
+Enter the height (cm) of the tank ( >= 0 ): -1
+Enter the height (cm) of the tank ( >= 0 ): 2
+Enter the diameter (cm) of the tank ( >= 0 ): -1
+Enter the diameter (cm) of the tank ( >= 0 ): -4
+Enter the diameter (cm) of the tank ( >= 0 ): 2
+Enter the thickness (cm) of the tank wall ( 0 <= t <= 1 ): -1
+Enter the thickness (cm) of the tank wall ( 0 <= t <= 1 ): 2
+Enter the thickness (cm) of the tank wall ( 0 <= t <= 1 ): 1
+A tank of height 2cm and diameter 2cm with a wall thickness of 1cm has a total wall volume of 6.28319 cubic centimeters.
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program06$ make run
+./prog
+Enter the height (cm) of the tank ( >= 0 ): 5.5
+Enter the diameter (cm) of the tank ( >= 0 ): 2.4
+Enter the thickness (cm) of the tank wall ( 0 <= t <= 1.2 ): .9
+A tank of height 5.5cm and diameter 2.4cm with a wall thickness of 0.9cm has a total wall volume of 23.3263 cubic centimeters.

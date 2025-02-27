@@ -24,5 +24,3 @@ double tankWallVolume(double o, double i)
 {
     return o - i;
 }
-
-
