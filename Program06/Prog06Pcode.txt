@@ -1,0 +1,21 @@
+// Prog06Pcode.txt
+// Deacon Steiner
+// COSC 1030 Spring 2025
+// Program 06
+// February 26, 2025
+
+ASK user for inputs: 
+    1. height of cylinder (h)
+    2. diameter of outer cylinder (d)
+    3. thickness of container wall (t)
+
+VERIFY inputs
+    non-negative
+    thickness must be no larger than 1/2 diameter or 1/2 height
+
+CALCULATE volume of cylinder
+    h(pi)(d/2)^2
+
+CALCULATE volume of interior, "hollow"
+    h(pi)((d/2)-t)^2
+
