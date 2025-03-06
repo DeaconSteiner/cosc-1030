@@ -1,0 +1,34 @@
+// Prog07Test.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Program 07
+// 06 Mar 2025
+
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program07$ make run
+Please enter input file: dat.info 
+Please enter output file: Prog07Output.txt
+Could not open: dat.info 
+Please enter input file: data1.info
+Please enter output file: Prog07Output.txt
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program07$ make run
+Please enter input file: data2.info
+Please enter output file: Prog07Output.txt
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program07$ make run
+Please enter input file: data3.info
+Please enter output file: Prog07Output.txt
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program07$ make run
+Please enter input file: data4.info
+Please enter output file: Prog07Output.txt
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Program07$ cat Prog07Output.txt 
+data1.info: 25 employees. 
+Total hours: 1221.92, Average per employee: 48.8769 hours 
+
+data2.info: 15 employees. 
+Total hours: 907.893, Average per employee: 60.5262 hours 
+
+data3.info: 1 employees. 
+Total hours: 92.7222, Average per employee: 92.7222 hours 
+
+data4.info: 0 employees. 
+Total hours: 0, Average per employee: -nan hours 
+
