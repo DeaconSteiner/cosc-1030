@@ -1,0 +1,58 @@
+// Lab07Test.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Lab 07
+// Mar 05, 2025
+
+// Show current folder to verify valid/ invalid input/ output files
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ ls
+in.txt  Lab07.cpp  Lab07Pcode.txt  Lab07test.txt  makefile  out.txt
+
+// Show that outfile is empty (to verify that copy worked successfully)
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ cat out.txt 
+
+// Run program
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ make run 
+Please enter two filenames. (Press Enter after each) 
+I'll copy the first to the second
+x.txt // Testing bad input
+out.txt
+Could not open: x.txt // Proper error handling
+Please enter two filenames. 
+I'll copy the first to the second
+in.txt // Good input
+out.txt // Good input
+***DONE COPYING***
+
+// Show that copy was successful
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ cat out.txt 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+// Testing again (Copy blank file)
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ ls
+in2.txt  in.txt  Lab07.cpp  Lab07Pcode.txt  Lab07test.txt  makefile  out.txt
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ cat in.txt 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ cat in2.txt 
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ cat out.txt 
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ make run
+Please enter two filenames. (Press Enter after each) 
+I'll copy the first to the second
+x.txt
+out.txt
+Could not open: x.txt
+Please enter two filenames. 
+I'll copy the first to the second
+in.txt
+out.txt
+***DONE COPYING***
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ cat out.txt 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ make run 
+Please enter two filenames. (Press Enter after each) 
+I'll copy the first to the second
+in2.txt
+out.txt
+***DONE COPYING***
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ cat out.txt 
+deacon@deacon-lenovo:~/cosc-1030/repos/cosc-1030/Lab07$ 

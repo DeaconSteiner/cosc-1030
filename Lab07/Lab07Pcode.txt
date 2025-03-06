@@ -1,0 +1,10 @@
+// Lab07Pcode.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Lab 07
+// Mar 05, 2025
+
+PROMPT user for two file names (input and output)
+READ data from input file
+WRTIE data (from input file) to output file
+CLOSE both files
