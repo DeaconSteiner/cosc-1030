@@ -1,0 +1,39 @@
+// Lab08Test.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Lab 08
+// Mar 11, 2025
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Lab08$ make run
+Charge computation for Inpatient (I) or Outpatient (O)
+j // Bad input
+Must use I for inpatient or O for outpatient (case insensitve) // Gives message
+make: *** [makefile:13: run] Error 1 // Exit with error 1
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Lab08$ make run
+Charge computation for Inpatient (I) or Outpatient (O)
+I // Valid input
+Number of days: 4
+Daily Rate: 34.56
+Medicine charges: 45.67
+Service charges: 923.45
+Total charges: $1107.36
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Lab08$ make run
+Charge computation for Inpatient (I) or Outpatient (O)
+i // Proving case insensitvity
+Number of days: 4
+Daily Rate: 34.56
+Medicine charges: 45.67
+Service charges: 923.45
+Total charges: $1107.36
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Lab08$ make run
+Charge computation for Inpatient (I) or Outpatient (O)
+o // Outpatient option
+Medicine charges: 2349.98
+Service charges: 34.9
+Total charges: $2384.88
+
+
+

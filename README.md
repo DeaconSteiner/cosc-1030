@@ -28,3 +28,7 @@ Lab06 - Completed: February 26, 2025
 Program07 - Completed: March 6, 2025
 
 Lab07 - Completed: March 5, 2025
+
+Program08 - Completed: 
+
+Lab08 - Completed: March 11, 2025

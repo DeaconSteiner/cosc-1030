@@ -1,0 +1,19 @@
+// Lab08Pcode.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Lab 08
+// Mar 11, 2025
+
+ASK user for their status
+    Inpatient (i) or Outpatient (o)
+IF Inpatient
+    GET data
+        # of days in hospital
+        daily rate (XXX.XX)
+        total medication charges
+        charges for services
+
+IF Outpatient
+    GET data    
+        total medication charges
+        charges for services
