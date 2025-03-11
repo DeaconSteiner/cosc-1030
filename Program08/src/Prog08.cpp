@@ -18,6 +18,7 @@ using std::chrono::steady_clock;
 #include "FiboImps.hpp"
 
 const int MAXN(45);
+const int REPEATS(6);
 
 int main()
 {

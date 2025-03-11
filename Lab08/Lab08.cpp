@@ -13,6 +13,9 @@ using std::endl;
 float ComputeCharges(float, float);
 float ComputeCharges(int, float, float, float);
 
+void DataInput(float &, float &);
+void DataInput(int &, float &, float &, float &);
+
 int main()
 {
     char status;
@@ -29,27 +32,16 @@ int main()
     {
         case 'O':
         {
-            cout << "Medicine charges: ";
-            cin >> medCharges;
-            cout << "Service charges: ";
-            cin >> servCharges;
-            
+            DataInput(medCharges, servCharges);
             float total = ComputeCharges(medCharges, servCharges);
 
             cout << "Total charges: $" << total << endl;
             break;
         }
+
         case 'I':
         {
-            cout << "Number of days: ";
-            cin >> days;
-            cout << "Daily Rate: ";
-            cin >> dRate;
-            cout << "Medicine charges: ";
-            cin >> medCharges;
-            cout << "Service charges: ";
-            cin >> servCharges;
-
+            DataInput(days, dRate, medCharges, servCharges);
             float total = ComputeCharges(days, dRate, medCharges, servCharges);
 
             cout << "Total charges: $" << total << endl;
@@ -62,6 +54,49 @@ int main()
         }
     }
     return 0;
+}
+
+void DataInput(float &medCharge, float &servCharge)
+{
+    do 
+    {
+        cout << "Medicine charges: ";
+        //cin >> medCharge;
+    }
+    while (!(cin >> medCharge) || medCharge < 0);
+     
+    do
+    {
+        cout << "Service charges: ";
+    }
+    while (!(cin >> servCharge) || servCharge < 0);
+}
+
+void DataInput(int &days, float &dRate, float &medCharge, float &servCharge)
+{
+    do
+    {
+        cout << "Number of days: ";
+    } while (!(cin >> days) || days < 0);
+
+    do
+    {
+        cout << "Daily rate: ";
+    }
+    while (!(cin >> dRate) || dRate < 0);
+    
+    do 
+    {
+        cout << "Medicine charges: ";
+        //cin >> medCharge;
+    }
+    while (!(cin >> medCharge) || medCharge < 0);
+     
+    do
+    {
+        cout << "Service charges: ";
+    }
+    while (!(cin >> servCharge) || servCharge < 0);
 }
     
 
