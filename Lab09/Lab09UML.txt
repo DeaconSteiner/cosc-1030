@@ -1,0 +1,16 @@
+    Date 
+--------------------
+-year : int
+-month : int
+-day : int
+--------------------
++<<constructor>> Date(y:int=0,m:int=1,d:int=1)
++setDate(y:int,m:int,d:int) : void
++setYear(y:int) : void
++setMonth(m:int) : void
++setDay(d:int) : void
++getYear() : int
++getMonth() : int
++getDay() : int
++printUniversal() : void
++printStandard() : void
