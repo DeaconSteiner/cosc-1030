@@ -1,0 +1,33 @@
+// Prog09Test.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Program 09
+// 27 Mar 2025
+
+// Original data set: 
+//  double xData[]={0.0, 1.0, 2.0, 4.0, 5.0, 8.0, 9.0};
+//  double yData[]={-2.5, 3.0, 4.5, 7.0, 9.5, 10.0, 12.5}; 
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Program09$ make run
+The x data set: 
+0    1    2    4    5    8    9    
+the y data set: 
+-2.5    3    4.5    7    9.5    10    12.5    
+The linear least square parameters are as follows:
+  m = 1.37903
+  b = 0.572581
+
+
+// new data sets: 
+//  double xData[]={1.0, 3.0, 4.0, 6.0, 7.0, 10.0, 12.0};
+//  double yData[]={2.0, 5.0, 6.0, 9.0, 11.0, 13.0, 15.0};
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Program09$ make run
+The x data set: 
+1    3    4    6    7    10    12    
+the y data set: 
+2    5    6    9    11    13    15    
+The linear least square parameters are as follows:
+  m = 1.18082
+  b = 1.46069
+

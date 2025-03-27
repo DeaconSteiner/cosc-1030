@@ -15,8 +15,8 @@ using std::endl;
 
 int main()
 {
-  double xData[]={0.0, 1.0, 2.0, 4.0, 5.0, 8.0, 9.0};
-  double yData[]={-2.5, 3.0, 4.5, 7.0, 9.5, 10.0, 12.5};
+  double xData[]={1.0, 3.0, 4.0, 6.0, 7.0, 10.0, 12.0};
+  double yData[]={2.0, 5.0, 6.0, 9.0, 11.0, 13.0, 15.0};
 
   int dataSize=7;
 
