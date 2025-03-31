@@ -1,0 +1,20 @@
+//Lab10Test.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Lab 10
+// 31 Mar 2025
+
+// The first time i ran it i just asked it to print out the vector to ensure it was reading/ storing the values properly
+deacon@deacon-lenovo:~/repos/cosc-1030/Program10$ g++ 
+gen.py          Lab10.cpp       Lab10Input.txt  lab10Pcode.txt
+deacon@deacon-lenovo:~/repos/cosc-1030/Program10$ g++ -o Prog Lab10.cpp 
+deacon@deacon-lenovo:~/repos/cosc-1030/Program10$ ./Prog 
+Please enter a filename: Lab10Input.txt	
+36 46 76 82 53 84 75 60 89 72 95 47 35 41 47
+
+// Here the program has full functionality
+deacon@deacon-lenovo:~/repos/cosc-1030/Program10$ g++ -o Prog Lab10.cpp 
+deacon@deacon-lenovo:~/repos/cosc-1030/Program10$ ./Prog 
+Please enter a filename: Lab10Input.txt
+The minimum value is 35,  The maximum is 95,  and the average is 62.5333
+deacon@deacon-lenovo:~/repos/cosc-1030/Program10$ 

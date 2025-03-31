@@ -1,0 +1,14 @@
+//Lab10Input.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Lab 10
+// 31 Mar 2025
+
+PROMPT user for input file name
+  IF file cannot be opened 
+    PRINT "File: [filename] cannot be opened."
+    EXIT
+  ELSE
+    READ integers from file
+    STORE in vector
+  COMPUTE min, max, avg of integers
