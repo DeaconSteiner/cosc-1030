@@ -22,12 +22,12 @@ string promptUser(void);
 void readData(vector<int>&, ifstream&);
 int getMin(vector<int>&);
 int getMax(vector<int>&);
-float getAvg(vector<int>&);
+double getAvg(vector<int>&);
 
 int main() {
   ifstream inFile;
   string fileName = promptUser();
-  
+
   inFile.open(fileName.c_str());
 
   if (!inFile.is_open()) {
@@ -38,8 +38,8 @@ int main() {
     vector<int> data;
     readData(data, inFile);
     inFile.close();
-  
-    cout << "The minimum value is " << getMin(data) << ", " << " The maximum is " << getMax(data) << ", " << " and the average is " << getAvg(data) << endl; 
+
+    cout << "The minimum value is " << getMin(data) << ", " << " The maximum is " << getMax(data) << ", " << " and the average is " << getAvg(data) << endl;
   }
 
   return 0;
@@ -77,7 +77,7 @@ int getMax(vector<int>& data) {
   return maxVal;
 }
 
-float getAvg(vector<int>& data) {
+double getAvg(vector<int>& data) {
   if (data.empty()) return 0;
 
   int sum = 0;
