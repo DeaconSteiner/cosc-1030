@@ -1,0 +1,20 @@
+// Prog10.cpp
+// Deacon Steiner
+// COSC 1030, Section 12
+// Program 10
+// 03 Apr 2025
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Program10$ make clean && make run
+(1) Testing `cout << A':  empty
+(2) Testing `cin >> A':
+Enter the polynomial (integer order then double coefficients):
+	 3 -1 2.09 -5.3 -0.98
+
+(3) Second look at A:  -1x^(3) + 2.09x^(2) -5.3x^(1) -0.98
+(4) Testing `Polynomial B(A)':  -1x^(3) + 2.09x^(2) -5.3x^(1) -0.98
+(5) Testing `Polynomial C(2, clist)':  8x^(2) + 4.5x^(1) + 1
+(6) Testing D = C:  8x^(2) + 4.5x^(1) + 1
+(7) Testing A == B :  TRUE
+(8) Testing A == D :  FALSE
+(9) Testing out-of-bounds access: Index out of bounds
+(10) Testing high-degree polynomial 'F': 1.5x^(3) -2.3x^(2) + 0.8x^(1) + 4

@@ -4,7 +4,8 @@
         "chrono": "cpp",
         "random": "cpp",
         "limits": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "ostream": "cpp"
     },
     "cmake.sourceDirectory": "/home/deacon/repos/cosc-1030/Lab08"
 }
