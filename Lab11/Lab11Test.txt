@@ -4,3 +4,15 @@
 // Lab 11
 // 07 Apr 2025
 
+deacon@deacon-lenovo:~/repos/cosc-1030/Lab11$ make clean && make run
+Please enter a string
+Frangapani
+Echoing that string: Frangapani
+Please enter a sentence (less than 256 characters): 
+The quick brown dog crawled under the really lazy fox-like creature.
+You entered 68 characters. And 69 characters were removed from the stream.
+Please give me an integer (between 0 and 67): 22
+The sentence is now:
+The quick brown dog cr
+The original is now:
+The quick brown dog crawled under the really lazy fox-like creature.
