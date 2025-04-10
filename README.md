@@ -41,6 +41,6 @@ Program10 - Completed: April 3, 2025
 
 Lab10 - Completed: March 31, 2025
 
-Program11 - Completed:
+Program11 - Completed: April 10, 2025
 
 Lab11 - Completed: April 7, 2025

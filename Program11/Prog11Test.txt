@@ -1,0 +1,49 @@
+// String1030.cpp
+// Deacon Steiner
+// COSC 1030, Section 12
+// Program 11
+// 09 Apr 2025
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Program11$ make clean && make run
+
+	Checking the use of the constructors 
+S size(): 9
+T size(): 9
+X size(): 0
+
+	Testing [] on 'T'
+My string
+
+	Checking the ability to modify one element of the string
+My5string
+
+	Checking the assignment operator: X=S
+X: My5string
+
+	Checking the size reset (30).
+X size is now: 30
+
+	Checking setString() and getString().
+Input a string: longstring
+
+X: longstring
+
+	Set to a negative value, nothing should change
+S size() before: 9
+S size() after : 9
+
+	Set to 0, should be 0
+S size(): 0
+
+Input a string: shortstring
+S after cin>>: shortstring
+
+	Reset to something larger than 0
+S size(): 10
+Input a string: otherstring
+S after cin>>: otherstring
+
+	Checking the assignment return value with : X=T=S
+T: otherstring
+X: otherstring
+deacon@deacon-lenovo:~/repos/cosc-1030/Program11$
