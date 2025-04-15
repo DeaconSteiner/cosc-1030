@@ -1,0 +1,16 @@
+//Lab12Test.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Lab 12
+// 14 Apr 2025
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Lab12$ make run 
+SUV 1 - Make: Unknown, Model: Unknown, Doors: 4, 4WD: Yes
+SUV 2 - Make: Jeep, Model: Wrangler, Doors: 2, 4WD: Yes
+SUV 1 after setHas4WD(false) - 4WD: No
+Van 1 - Make: Unknown, Model: Unknown, Doors: 3, 4WD: No, payload capacity: 1500
+Van 2 - Make: Mercedes-Benz, Model: Sprinter 2500, Doors: 4, 4WD: Yes, payload capacity: 3396
+Van 2 after setHas4WD(false) - 4WD: No
+Van 2 after setPayloadCapacity(3627) - Payload Capacity: 3627
+Testing error handling with negative payload
+Van 3 Payload: 0
