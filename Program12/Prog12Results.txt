@@ -1,0 +1,20 @@
+// Prog12Results.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Program 12
+// 16 Apr 2025
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Program12$ make clean && make run
+The unsorted shapes are as follows:
+(1) square with Perimeter 8
+(2) circle with Perimeter 18.8496
+(3) equilateral triangle with Perimeter 4.5
+(4) square with Perimeter 4
+(5) equilateral triangle with Perimeter 6
+
+The shape list, sorted by perimeter, is as follows:
+(1) square with perimeter 4
+(2) equilateral triangle with perimeter 4.5
+(3) equilateral triangle with perimeter 6
+(4) square with perimeter 8
+(5) circle with perimeter 18.8496
