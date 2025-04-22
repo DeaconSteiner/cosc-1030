@@ -1,0 +1,111 @@
+// Lab13test.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Lab 13
+// 22 Apr 2025
+
+Question 1: 
+
+  VBase is an abstract class because the makeAbs function in the class definition is a pure virtual function.
+
+  Lab13.cpp: In function ‘int main()’:
+Lab13.cpp:52:10: error: cannot declare variable ‘B’ to be of abstract type ‘VBase’
+   52 |    VBase B;
+      |          ^
+Lab13.cpp:14:7: note:   because the following virtual functions are pure within ‘VBase’:
+   14 | class VBase
+      |       ^~~~~
+Lab13.cpp:21:20: note:     ‘virtual void VBase::makeAbs() const’
+   21 |       virtual void makeAbs() const = 0;
+      |                    ^~~~~~~
+make: *** [makefile:10: prog] Error 1
+
+//==============================================================================
+
+Question 2:
+
+  No, it does not compile with an overloaded getStuff() definition 
+because it cannot access the private stuff variable
+
+Lab13.cpp: In member function ‘virtual int VDerived::getStuff() const’:
+Lab13.cpp:34:37: error: ‘int VBase::stuff’ is private within this context
+   34 |       int getStuff() const { return stuff*stuff; }
+      |                                     ^~~~~
+Lab13.cpp:24:11: note: declared private here
+   24 |       int stuff;
+      |           ^~~~~
+Lab13.cpp:34:43: error: ‘int VBase::stuff’ is private within this context
+   34 |       int getStuff() const { return stuff*stuff; }
+      |                                           ^~~~~
+Lab13.cpp:24:11: note: declared private here
+   24 |       int stuff;
+      |           ^~~~~
+make: *** [makefile:10: prog] Error 1
+
+//==============================================================================
+
+Question 3:
+
+   You could make stuff protected as opposed to private:
+
+   class VBase
+{
+
+   public:
+      VBase( int vs=0 ) { setStuff(vs); }
+      virtual int getStuff() const { return stuff; }
+      virtual void setStuff( int s ) { stuff = (s>=0) ? s : 0; }
+      virtual void makeAbs() const = 0;
+
+   protected:
+      int stuff;
+
+};
+
+once you make this change it compiles with no problems: 
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Lab13$ make clean && make run
+Object(9)
+
+//==============================================================================
+
+Question 4:
+   This functionality can be implemented by making these changes:
+
+class VDerived : public VBase
+{
+
+   public:
+      VDerived( int vs=0 ) { setStuff(vs); }
+      void makeAbs() const { }
+
+++    void setStuff( int s ) override {
+         stuff = (s >= 0) ? s : 0;
+         weight = 2 * stuff;
+      }
+++    int getStuff() const override { return stuff*weight; }
+
+   private:
+++    int weight;
+};
+...
+int main()
+{
+
+   VDerived A(3);
+
+   cout << A << endl;
+
+++ A.setStuff(4);
+
+++ cout << A << endl;
+
+   return 0;
+}
+
+with these changes you get this output:
+deacon@deacon-lenovo:~/repos/cosc-1030/Lab13$ make clean && make run
+Object(18)
+Object(32)
+
+//==============================================================================
