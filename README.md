@@ -51,6 +51,6 @@ Program 12 - Completed: April 16, 2025
 
 Lab 12 - Completed: April 15, 2025
 
-Program 13 - Completed:
+Program 13 - Completed: April 23, 2025
 
 Lab 13 - Completed: April 22, 2025
