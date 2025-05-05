@@ -1,0 +1,38 @@
+// Lab14test.txt
+// Deacon Steiner
+// COSC 1030, Section 12
+// Lab 14
+// 22 Apr 2025
+
+// Testing Long names
+deacon@deacon-lenovo:~/repos/cosc-1030/Lab14$ make clean && make run
+Enter nurse's name:  Josephina Wilhemina Frankenheimerstein III
+Enter patient's name:  Poor Unfortunate Soule
+Enter pulse rate:  72
+Enter systolic BP:  124
+Enter diastolic BP:  80
+****************************************
+*  Patient:  Poor Unfortunate Soule
+*  Nurse:    Josephina Wilhemina Frankenheimerstein III
+*  Pulse:    72
+*  BP:       124/80
+****************************************
+
+// Testing invalid inputs
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Lab14$ make clean && make run
+Enter nurse's name:  Betty
+Enter patient's name:  Joe
+Enter pulse rate:  -4 // Testing negative input for pulse
+Invalid input. Please enter a positve number for pulse: 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111 // Testing buffer overflow in pulse
+Invalid input. Please enter a positve number for pulse: 60
+Enter systolic BP:  120
+Enter diastolic BP:  -4 // Testing negative input for BP
+Invalid input. Enter a positive number for diastolic BP: -60 // Testing negative input for BP
+Invalid input. Enter a positive number for diastolic BP: 66
+****************************************
+*  Patient:  Joe
+*  Nurse:    Betty
+*  Pulse:    60
+*  BP:       120/66
+****************************************
