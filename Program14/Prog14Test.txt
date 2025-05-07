@@ -1,0 +1,32 @@
+// Prog14Test.txt
+// Deacon Steiner
+// COSC1030, Section 12
+// Program 14
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Program14$ make clean && make run 
+Please enter the name of a file containing integers. 
+ We'll return the number of integers, mean and median.
+Ints.data
+Number of values: 15
+Mean value: 34.8
+Median value: 23
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Program14$ make clean && make run 
+Please enter the name of a file containing integers. 
+ We'll return the number of integers, mean and median.
+P14test1.txt // Testing for bad input (Note that test should be capitalized).
+File could not be opened, please try again.
+Please enter the name of a file containing integers. 
+ We'll return the number of integers, mean and median.
+P14Test1.txt
+Number of values: 20
+Mean value: 51.75
+Median value: 54
+
+deacon@deacon-lenovo:~/repos/cosc-1030/Program14$ make clean && make run 
+Please enter the name of a file containing integers. 
+ We'll return the number of integers, mean and median.
+P14Test2.txt
+Number of values: 10
+Mean value: 52.9
+Median value: 54
